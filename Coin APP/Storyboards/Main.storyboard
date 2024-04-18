@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -186,7 +186,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gy3-Qw-w7y">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcom To Marketplace!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kH8-vg-xdW">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoinApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kH8-vg-xdW">
                                                 <rect key="frame" x="20" y="20.000000000000004" width="353" height="46.333333333333343"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="46.329999999999998" id="hmD-jx-kjV"/>
@@ -200,7 +200,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signup to get Started" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XuI-Ti-7P2">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XuI-Ti-7P2">
                                                 <rect key="frame" x="20" y="71.333333333333343" width="353" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="Bcx-5U-yUH"/>
@@ -379,68 +379,7 @@
                                                     <action selector="didTapButtonSignUp:" destination="W3a-qE-cVG" eventType="touchUpInside" id="5FE-nN-vU8"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or continue with" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEI-Eh-sI4">
-                                                <rect key="frame" x="20" y="437.66666666666669" width="353" height="20"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="20" id="Ea3-QX-Fka"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                                <color key="textColor" name="color_4E4B66"/>
-                                                <nil key="highlightedColor"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="dynamicFontSize">
-                                                        <real key="value" value="17"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="9wh-K0-qNW">
-                                                <rect key="frame" x="20" y="477.66666666666663" width="353" height="50"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Os-SI-rTu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="50"/>
-                                                        <color key="backgroundColor" name="color_EEF1F4"/>
-                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
-                                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
-                                                        <state key="normal" title="Facebook" image="app.facebook">
-                                                            <color key="titleColor" name="color_667080"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="dynamicFontSize">
-                                                                <real key="value" value="18"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
-                                                                <real key="value" value="12"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                        <connections>
-                                                            <action selector="didTapButtonFaceBook:" destination="W3a-qE-cVG" eventType="touchUpInside" id="bHO-3k-KhJ"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xt6-vP-SLP">
-                                                        <rect key="frame" x="184.66666666666663" y="0.0" width="168.33333333333337" height="50"/>
-                                                        <color key="backgroundColor" name="color_EEF1F4"/>
-                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
-                                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
-                                                        <state key="normal" title="Google" image="app.google">
-                                                            <color key="titleColor" name="color_667080"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="dynamicFontSize">
-                                                                <real key="value" value="18"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
-                                                                <real key="value" value="12"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                        <connections>
-                                                            <action selector="didTapButtonGoogle:" destination="W3a-qE-cVG" eventType="touchUpInside" id="d75-pr-b0c"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account? Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS3-CM-qjq">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Already have an account? Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS3-CM-qjq">
                                                 <rect key="frame" x="20" y="547.66666666666663" width="353" height="16.333333333333371"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="16.329999999999998" id="nTp-F8-jd1"/>
@@ -457,7 +396,6 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="9wh-K0-qNW" firstAttribute="top" secondItem="bEI-Eh-sI4" secondAttribute="bottom" constant="20" id="41Y-xj-O8z"/>
                                             <constraint firstItem="XuI-Ti-7P2" firstAttribute="leading" secondItem="kH8-vg-xdW" secondAttribute="leading" id="4eX-Ut-MhW"/>
                                             <constraint firstAttribute="trailing" secondItem="kH8-vg-xdW" secondAttribute="trailing" constant="20" id="4l9-Zi-r4R"/>
                                             <constraint firstItem="6ym-RL-AeF" firstAttribute="trailing" secondItem="Odx-61-t24" secondAttribute="trailing" id="4zf-Dz-W2D"/>
@@ -465,15 +403,8 @@
                                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="mS3-CM-qjq" secondAttribute="bottom" constant="20" id="6eX-VJ-atx"/>
                                             <constraint firstItem="XuI-Ti-7P2" firstAttribute="trailing" secondItem="kH8-vg-xdW" secondAttribute="trailing" id="88w-DE-RXn"/>
                                             <constraint firstItem="akM-4u-49J" firstAttribute="trailing" secondItem="XuI-Ti-7P2" secondAttribute="trailing" id="8K5-zB-swR"/>
-                                            <constraint firstItem="bEI-Eh-sI4" firstAttribute="top" secondItem="6ym-RL-AeF" secondAttribute="bottom" constant="20" id="AKR-rl-L4M"/>
-                                            <constraint firstItem="bEI-Eh-sI4" firstAttribute="trailing" secondItem="6ym-RL-AeF" secondAttribute="trailing" id="BVK-4d-ebz"/>
                                             <constraint firstItem="Odx-61-t24" firstAttribute="top" secondItem="akM-4u-49J" secondAttribute="bottom" constant="20" id="Gy8-el-IRp"/>
-                                            <constraint firstItem="mS3-CM-qjq" firstAttribute="trailing" secondItem="9wh-K0-qNW" secondAttribute="trailing" id="HZ9-4f-yqH"/>
-                                            <constraint firstItem="mS3-CM-qjq" firstAttribute="top" secondItem="9wh-K0-qNW" secondAttribute="bottom" constant="20" id="IU0-K8-VqA"/>
                                             <constraint firstItem="6ym-RL-AeF" firstAttribute="height" secondItem="fIJ-gT-Z9O" secondAttribute="height" id="If9-Uu-tgq"/>
-                                            <constraint firstItem="9wh-K0-qNW" firstAttribute="leading" secondItem="bEI-Eh-sI4" secondAttribute="leading" id="MFJ-Pa-mVT"/>
-                                            <constraint firstItem="9wh-K0-qNW" firstAttribute="trailing" secondItem="bEI-Eh-sI4" secondAttribute="trailing" id="QFM-u1-IEM"/>
-                                            <constraint firstItem="mS3-CM-qjq" firstAttribute="leading" secondItem="9wh-K0-qNW" secondAttribute="leading" id="Ust-zV-wgI"/>
                                             <constraint firstItem="akM-4u-49J" firstAttribute="leading" secondItem="XuI-Ti-7P2" secondAttribute="leading" id="Uw8-F4-5gW"/>
                                             <constraint firstItem="kH8-vg-xdW" firstAttribute="leading" secondItem="Gy3-Qw-w7y" secondAttribute="leading" constant="20" id="VDL-7G-Luo"/>
                                             <constraint firstItem="szM-JR-f6N" firstAttribute="top" secondItem="Odx-61-t24" secondAttribute="bottom" constant="10" id="VsX-DU-3vv"/>
@@ -481,9 +412,7 @@
                                             <constraint firstItem="kH8-vg-xdW" firstAttribute="top" secondItem="Gy3-Qw-w7y" secondAttribute="top" constant="20" id="YZh-ey-uGE"/>
                                             <constraint firstItem="Odx-61-t24" firstAttribute="trailing" secondItem="akM-4u-49J" secondAttribute="trailing" id="aOa-lV-orR"/>
                                             <constraint firstItem="akM-4u-49J" firstAttribute="top" secondItem="XuI-Ti-7P2" secondAttribute="bottom" constant="50" id="dxj-QF-HFe"/>
-                                            <constraint firstItem="9wh-K0-qNW" firstAttribute="height" secondItem="6ym-RL-AeF" secondAttribute="height" id="e0d-Tk-lZC"/>
                                             <constraint firstItem="6ym-RL-AeF" firstAttribute="top" secondItem="szM-JR-f6N" secondAttribute="bottom" constant="20" id="jlY-zL-h65"/>
-                                            <constraint firstItem="bEI-Eh-sI4" firstAttribute="leading" secondItem="6ym-RL-AeF" secondAttribute="leading" id="pfR-Ps-bpW"/>
                                             <constraint firstItem="szM-JR-f6N" firstAttribute="leading" secondItem="Odx-61-t24" secondAttribute="leading" id="rTa-4h-3o6"/>
                                             <constraint firstItem="Odx-61-t24" firstAttribute="leading" secondItem="akM-4u-49J" secondAttribute="leading" id="syG-aO-gf7"/>
                                         </constraints>
@@ -533,10 +462,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qNG-eA-OQe">
-                                                <rect key="frame" x="73.666666666666671" y="323" width="245.66666666666663" height="113"/>
+                                                <rect key="frame" x="69" y="323" width="255" height="113"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin APP!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGV-Yp-0n9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="245.66666666666666" height="46.333333333333336"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGV-Yp-0n9">
+                                                        <rect key="frame" x="0.0" y="0.0" width="255" height="46.333333333333336"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="46.329999999999998" id="uLQ-DH-o0c"/>
                                                         </constraints>
@@ -549,8 +478,8 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQl-yi-JUJ">
-                                                        <rect key="frame" x="10" y="56.333333333333314" width="225.66666666666666" height="32.666666666666657"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Congratulations!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQl-yi-JUJ">
+                                                        <rect key="frame" x="10" y="0.0" width="235" height="56"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="32.670000000000002" id="abO-lL-jOA"/>
                                                         </constraints>
@@ -564,7 +493,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your account is ready to use" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rur-2J-1nz">
-                                                        <rect key="frame" x="10" y="94" width="225.66666666666666" height="19"/>
+                                                        <rect key="frame" x="10" y="94" width="235" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="18.670000000000002" id="0bN-oh-O13"/>
                                                         </constraints>
@@ -592,15 +521,15 @@
                                                     <constraint firstAttribute="bottom" secondItem="rur-2J-1nz" secondAttribute="bottom" id="uwe-Jf-aDN"/>
                                                 </constraints>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRc-17-L8Y">
-                                                <rect key="frame" x="20" y="689" width="353" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRc-17-L8Y">
+                                                <rect key="frame" x="20" y="471" width="353" height="50"/>
                                                 <color key="backgroundColor" name="color_1877F2"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="7go-JU-Cxg"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Go To HomePage">
+                                                <state key="normal" title="HomePage ">
                                                     <color key="titleColor" name="BrightWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -647,7 +576,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4PE-GR-ysI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="770" y="-13"/>
+            <point key="canvasLocation" x="768.70229007633588" y="-13.380281690140846"/>
         </scene>
         <!--Profile-->
         <scene sceneID="7RE-f9-OXx">
@@ -1086,8 +1015,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="app.facebook" width="24.333333969116211" height="24"/>
-        <image name="app.google" width="24.333333969116211" height="24"/>
         <image name="app.home" width="24" height="24.333333969116211"/>
         <image name="app.home.selected" width="24" height="24.333333969116211"/>
         <image name="app.profile" width="24" height="24.333333969116211"/>
@@ -1101,19 +1028,16 @@
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="color_1877F2">
-            <color red="0.48045987170243709" green="0.31552401678144743" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.47843137254901963" green="0.31372549019607843" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="color_1877F2_50">
-            <color red="0.48045987170243709" green="0.31552401678144743" blue="0.61960784313725492" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.47843137254901963" green="0.31372549019607843" blue="0.61960784313725492" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="color_4E4B66">
             <color red="0.30588235294117649" green="0.29411764705882354" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="color_667080">
             <color red="0.40000000000000002" green="0.4392156862745098" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
-        <namedColor name="color_EEF1F4">
-            <color red="0.93333333333333335" green="0.94509803921568625" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
