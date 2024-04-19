@@ -1,9 +1,4 @@
-//
-//  Extention+Date.swift
-//  Summit
-//
-//  Created by AKASH on 02/02/23.
-//
+
 
 import UIKit
 

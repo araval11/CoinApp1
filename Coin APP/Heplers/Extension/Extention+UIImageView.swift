@@ -1,9 +1,4 @@
-//
-//  Extention+UIImageView.swift
-//  Squeezee
-//
-//  Created by AKASH on 07/08/23.
-//
+
 
 import Kingfisher
 import UIKit

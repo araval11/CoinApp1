@@ -1,9 +1,3 @@
-//
-//  AppLayout.swift
-//  KarmaScore
-//
-//  Created by AKASH on 09/11/23.
-//
 
 import UIKit
 

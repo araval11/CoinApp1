@@ -1,9 +1,4 @@
-//
-//  Utils.swift
-//  BodyRx
-//
-//  Created by AKASH on 22/12/22.
-//
+
 
 import Foundation
 import UIKit

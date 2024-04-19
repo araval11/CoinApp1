@@ -1,9 +1,4 @@
-//
-//  Globals.swift
-//  Squeezee
-//
-//  Created by AKASH on 19/09/23.
-//
+
 
 import Combine
 import Foundation

@@ -1,9 +1,4 @@
-//
-//  DataCell.swift
-//  NewsApp
-//
-//  Created by AKASH BOGHANI on 10/04/24.
-//
+
 
 import UIKit
 

@@ -1,9 +1,4 @@
-//
-//  Extention+UIviewController.swift
-//  Summit
-//
-//  Created by AKASH on 22/12/22.
-//
+
 
 import IHProgressHUD
 import Kingfisher

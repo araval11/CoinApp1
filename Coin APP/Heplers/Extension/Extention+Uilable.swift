@@ -1,9 +1,4 @@
-//
-//  Extention+Uilable.swift
-//  BodyRx
-//
-//  Created by AKASH on 27/12/22.
-//
+
 
 import UIKit
 

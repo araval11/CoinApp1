@@ -1,9 +1,4 @@
-//
-//  Extention+UICollectionView.swift
-//  Summit
-//
-//  Created by AKASH on 23/01/23.
-//
+
 
 import Foundation
 import UIKit

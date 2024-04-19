@@ -1,9 +1,4 @@
-//
-//  Enums.swift
-//  Squeezee
-//
-//  Created by iOS Developer on 21/08/23.
-//
+
 
 import Foundation
 

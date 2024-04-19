@@ -1,9 +1,4 @@
-//
-//  NewsReponseModel.swift
-//  BoilerPlate
-//
-//  Created by AKASH on 21/11/23.
-//
+
 
 import Foundation
 

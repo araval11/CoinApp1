@@ -1,9 +1,4 @@
-//
-//  Extention+UItableView.swift
-//  Summit
-//
-//  Created by AKASH on 17/01/23.
-//
+
 
 import Foundation
 import UIKit

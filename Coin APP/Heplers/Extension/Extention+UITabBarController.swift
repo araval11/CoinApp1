@@ -1,9 +1,4 @@
-//
-//  Extention+UITabBarController.swift
-//  SwiftBoilerPlate
-//
-//  Created by AKASH BOGHANI on 29/11/23.
-//
+
 
 import UIKit
 

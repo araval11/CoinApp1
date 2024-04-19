@@ -1,9 +1,4 @@
-//
-//  APIService.swift
-//  Generic API Layer
-//
-//  Created by AKASH on 02/08/23.
-//
+
 
 import Foundation
 

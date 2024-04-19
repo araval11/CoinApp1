@@ -1,9 +1,3 @@
-//
-//  Extention+Bundle.swift
-//  SwiftBoilerPlate
-//
-//  Created by AKASH BOGHANI on 25/01/24.
-//
 
 import Foundation
 

@@ -1,9 +1,3 @@
-//
-//  Extention+UITapGestureRecognizer.swift
-//  Squeezee
-//
-//  Created by AKASH on 13/09/23.
-//
 
 import Foundation
 import UIKit

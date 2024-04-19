@@ -1,9 +1,4 @@
-//
-//  Extention+UIApplication.swift
-//  SwiftBoilerPlate
-//
-//  Created by AKASH BOGHANI on 10/03/24.
-//
+
 
 import UIKit
 
